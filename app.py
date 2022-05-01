@@ -52,8 +52,7 @@ def main():
             if result:
                 st.success("Logged In as {}".format(username))
                 PAGES = {
-                    "Cartoonization" : ca ,
-                    "Low to high resolution images":high
+                    "Cartoonization" : ca 
                     }
 
                 st.sidebar.title('Art of Image')
